@@ -1,0 +1,16 @@
+h1{
+    color: hotpink;
+    font-family: lemon;
+    font-size: 90px;
+}
+
+p{
+    font-size: 25px;
+}
+
+@font-face{
+    font-family: lemon;
+    src: url(Lemon.ttf);
+    
+
+}

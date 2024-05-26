@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background:#fe5005;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo img[src="Empresa.jpeg"] {
+    border-radius: 30px;
+}
+
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: greenyellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: orange;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 60vh !important;
+    background: url(Mango.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+@font-face{
+    font-family: mandala;
+    src: url(Mandala.otf);
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    color:rgb(230, 5, 57);
+    font-family: mandala;
+}
+
+@font-face {
+    font-family: copy;
+    src: url(Copy.ttf);
+}
+
+.title, header{
+    font-family: copy;
+}
+
+@font-face {
+    font-family: child;
+    src: url(child.otf);
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(12, 12, 12);
+    padding: 0 100px;
+    font-family: child;
+}
+.btn{
+    display: inline-block;
+    margin-top: -30px;
+    padding: 10px 40px;
+    border: 2px solid orange;
+    color: white;
+    text-decoration: none;
+    background: orangered;
+}
+
+.btn:hover{
+    background: none;
+}
+
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 30px;
+    background: rgb(240, 239, 237);
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: auto;
+    width: auto;
+    background: rgb(253, 106, 8);
+    text-align: center;
+    margin: 10px;
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: chartreuse;
+}
+
+.box-container .box p{
+    font-size: 16px;
+
+}
+
+
+.about{
+    background: #fcad04;
+}
+
+.price{
+    background: white;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1%;
+    margin-top: -30px;
+    background: greenyellow;
+}
+
+.contact{
+    padding-top: 20px;
+    background: #fcad04;
+}
